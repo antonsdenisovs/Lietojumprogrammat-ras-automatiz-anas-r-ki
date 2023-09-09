@@ -9,8 +9,6 @@ def dollars_to_float(d):
     t1 = t.strip()
     r = float(t1)
     return (r)
-
-
 def percent_to_float(p):
     tp= p.replace("%"," ")
     tp1 = tp.strip()
